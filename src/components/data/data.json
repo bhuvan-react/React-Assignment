@@ -1,7 +1,7 @@
 {
-    "project_name": "default_project",
-    "output_name": "default_output",
-    "last_run": "2023-07-27T07:42:49.812940+00:00",
+    "project_name": "ETL New Demo 2",
+    "output_name": "ETL N_2",
+    "last_run": "Not Available",
     "table_headers": [
       { "name": "Row", "type": "serial" },
       { "name": "Territory", "type": "object" },
