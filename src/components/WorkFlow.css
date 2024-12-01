@@ -1,4 +1,4 @@
-.workflow-panel {
+/* .workflow-panel {
     background-color: #f8f9fc;
     padding: 20px;
     border-radius: 8px;
@@ -18,5 +18,122 @@
   
   .workflow-action:hover {
     background-color: #eee;
+  } */
+
+
+  .workflow-panel {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
   }
   
+  .workflow-panel h3 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .workflow-action-item {
+    width: 100%;
+    margin-bottom: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .workflow-action-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    width: 100%;
+    background: purple;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  
+  .workflow-action-header button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+  }
+  
+  .workflow-action-header button:hover {
+    color: #0056b3;
+  }
+  
+  .workflow-action-details {
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    border-top: none ;
+  }
+  
+  .bg-workflow-action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .hiphen-element{
+    width: 1px;
+    border: 1px dashed grey;
+    height: 100%;
+    color: transparent;
+    padding: 10px 0px;
+  }
+  .bg-plus-sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .bg-work-flow-header{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    /* justify-content: space-between; */
+  }
+
+  .bg-body-workflow{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 24.5px;
+    border-left: 1px dashed;
+    margin-left: 10px;
+  }
+
+  .toggle-button-plus{
+    min-width: 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  .workflow-action-header-rounded{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+  }

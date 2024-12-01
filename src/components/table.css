@@ -132,3 +132,16 @@
   width: 100%; 
 }
 
+.custom-data-table thead .p-column-header-content{
+  flex-direction: column;
+}
+
+.custom-data-table thead .p-column-header-content .p-column-title{
+  width: 100%;
+}
+
+.header-container-in-table {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}

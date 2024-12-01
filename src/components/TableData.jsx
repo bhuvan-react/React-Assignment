@@ -55,7 +55,7 @@ const DataTableComponent = () => {
               key={index}
               field={header.name}
               header={
-                <div className="header-container">
+                <div className="header-container-in-table">
                   <span>{header.name.replace(/_/g, " ")}</span>
                   <div className="divider"></div>
                   <Dropdown
