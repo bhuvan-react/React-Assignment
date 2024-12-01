@@ -13,7 +13,6 @@ const WorkflowPanel = () => {
   
   
   const buttonRef=useRef()
-  // State to track the expanded status of each action
   const [expanded, setExpanded] = useState({});
 
   const toggleExpand = (action) => {
@@ -29,8 +28,6 @@ const WorkflowPanel = () => {
       {actions.map((action) => (
         <div className='bg-workflow-action'>
           <div className='bg-work-flow-header'>
-
-          
            <button className='toggle-button-plus' onClick={() => toggleExpand(action)}>
                 {expanded[action] ? '-' : '+'}
             </button>
@@ -42,8 +39,6 @@ const WorkflowPanel = () => {
            
             {expanded[action] && (
             <div className='bg-body-workflow'>
-              
-               
             <div className="workflow-action-details">
                 {actionData[action] || ""}
               </div>
