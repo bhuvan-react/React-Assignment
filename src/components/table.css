@@ -1,0 +1,31 @@
+.data-table-wrapper {
+    width: 100%; 
+    overflow: hidden;
+  }
+  
+  .project-details-table {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .project-details-table .label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .project-details-table .value {
+    margin-right: 16px;
+  }
+  
+  .table-scroll-wrapper {
+    width: 100%; /* Full width for the scroll container */
+    overflow-x: auto; /* Horizontal scroll inside the container */
+  }
+  
+  .custom-data-table {
+    min-width: 1200px; /* Set a minimum width to force horizontal scroll */
+  }

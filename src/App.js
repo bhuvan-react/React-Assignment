@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import DataTableComponent from './components/TableData';
+import WorkflowPanel from './components/FlowPanel';
+import Header from './components/Header';
 import './App.css';
+import 'primereact/resources/themes/saga-blue/theme.css';  
+import 'primereact/resources/primereact.min.css';        
+import 'primeicons/primeicons.css'; 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <div className="main-content">
+        <div className="content-left">
+          <div className="header-container">
+            <Header />
+          </div>
+          <div className="data-table-container">
+            <DataTableComponent />
+          </div>
+        </div>
+
+        <div className="content-right">
+          <WorkflowPanel />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
