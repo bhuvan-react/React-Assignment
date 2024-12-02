@@ -2,7 +2,7 @@
   "name": "data-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bhuvan-react.github.io/data-dashboard",
+  "homepage": "https://bhuvan-react.github.io/React-Assignment",
   "dependencies": {
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
