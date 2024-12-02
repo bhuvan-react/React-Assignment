@@ -53,8 +53,8 @@ const WorkflowPanel = () => {
         <h3>Workflow</h3>
         <div className="workflow-icons">
           {actions.map((action) => (
-            <i key={action} className={`pi ${action === 'NEW' ? PrimeIcons.FILE : 
-                                       action === 'AGGREGATE' ? PrimeIcons.PIE_CHART : 
+            <i key={action} className={`pi ${action === 'NEW' ? PrimeIcons.TIMES : 
+                                       action === 'AGGREGATE' ? PrimeIcons.DOWNLOAD : 
                                        action === 'CLEAN' ? PrimeIcons.REFRESH : 
                                        action === 'DEDUPE' ? PrimeIcons.CHECK_CIRCLE : 
                                        PrimeIcons.CONNECT}`}></i>
